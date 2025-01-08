@@ -69,6 +69,8 @@ extern const struct sky73210 pll;
 /* Device has a GPS chip */
 // #define CONFIG_GPS
 
+#define CONFIG_W25Qx_EXT_ADDR
+
 #ifdef __cplusplus
 }
 #endif
